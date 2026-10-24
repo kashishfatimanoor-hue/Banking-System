@@ -1,25 +1,7 @@
 // ============================================================
 //  Banking System  (C++)
 // ------------------------------------------------------------
-//  Classes:
-//    Transaction : one record in an account's history
-//                  (id, date/time, type, amount, balance after, details)
-//    Account     : account number, owner, type, balance and its
-//                  list of transactions (deposit / withdraw)
-//    Customer    : customer id, name, phone number and the
-//                  numbers of the accounts the customer owns
-//    Bank        : keeps all customers and accounts and does the
-//                  work: create customers, open accounts, deposit,
-//                  withdraw, transfer, and show information
-//
-//  Features:
-//    - Create customers and open accounts (Savings or Current)
-//    - Deposits, withdrawals and fund transfers between accounts
-//    - Every operation is stored as a transaction in the history
-//    - View balance, account details and recent transactions
-//    - All inputs are validated and clear messages are shown
-//
-//  Notes:
+//  //  Notes:
 //    - Money is rounded to 2 decimal places after every operation,
 //      so there are no tiny calculation errors.
 //    - Data is kept in memory while the program is running.
